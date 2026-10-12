@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#0f2942">
+<title>Tiruppur Thozhil | திருப்பூர் தொழில்</title>
+<style>
+:root{--navy:#12304a;--green:#08783e;--green-light:#eaf6ee;--blue-light:#edf2f8;--ink:#17212b;--muted:#5d6873;--line:#dbe2e8;--bg:#f6f8fa;--white:#fff;--danger:#a52a2a}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--ink);font-family:Arial,"Noto Sans Tamil",sans-serif;line-height:1.5}button,input,select,textarea{font:inherit}button,a{touch-action:manipulation}button{cursor:pointer}a{color:inherit;text-decoration:none}.wrap{width:min(1080px,100% - 32px);margin:auto}.topbar{background:#fff;border-bottom:1px solid var(--line)}.topbar .wrap{min-height:58px;display:flex;align-items:center;justify-content:space-between;gap:12px}.brand{display:flex;align-items:center;gap:10px;font-weight:800;color:var(--navy)}.brand-mark{width:38px;height:38px;display:grid;place-items:center;background:var(--navy);color:#fff;border-radius:10px;font-size:19px}.brand small{display:block;color:var(--muted);font-size:12px;font-weight:600}.top-actions{display:flex;align-items:center;gap:8px}.lang-switch{display:flex;padding:3px;background:#eef1f4;border-radius:10px;gap:3px}.lang-switch button{border:0;background:transparent;padding:8px 10px;border-radius:8px;font-weight:700;color:var(--navy)}.lang-switch button.active{background:var(--navy);color:#fff}.btn{display:inline-flex;justify-content:center;align-items:center;gap:8px;border:0;border-radius:10px;padding:12px 16px;font-weight:700;min-height:46px}.btn-primary{background:var(--green);color:#fff}.btn-dark{background:var(--navy);color:#fff}.btn-outline{background:#fff;border:1px solid var(--line);color:var(--navy)}.btn:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible{outline:3px solid #9ac7ef;outline-offset:2px}.hero{padding:36px 0 28px}.hero-intro{text-align:center;max-width:650px;margin:0 auto 24px}.hero h1{font-size:clamp(27px,5vw,40px);line-height:1.15;margin:0 0 10px;color:var(--navy)}.hero-intro p{margin:0;color:var(--muted);font-size:17px}.role-cards{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}.role-card{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px;display:flex;flex-direction:column;gap:10px;box-shadow:0 3px 12px #0b253b08}.role-card.worker{border-top:5px solid var(--green)}.role-card.owner{border-top:5px solid var(--navy)}.role-icon{font-size:26px}.role-card h2{font-size:23px;color:var(--navy);margin:0}.role-card p{margin:0 0 6px;color:var(--muted)}.role-card .btn{width:100%;margin-top:auto}.section{padding:28px 0}.section-white{background:#fff;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}.section-head{margin-bottom:18px}.section-head h2{font-size:25px;color:var(--navy);margin:0 0 4px}.section-head p{margin:0;color:var(--muted)}.panel{background:#fff;border:1px solid var(--line);border-radius:14px;padding:20px}.field-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}.field{display:flex;flex-direction:column;gap:6px}.field.full{grid-column:1/-1}label{font-size:14px;font-weight:700;color:var(--navy)}input,select,textarea{width:100%;border:1px solid #cbd5df;border-radius:9px;padding:12px;background:#fff;color:var(--ink);min-height:46px}textarea{min-height:90px;resize:vertical}.inline-controls{display:flex;gap:10px;flex-wrap:wrap;align-items:center}.hint{font-size:13px;color:var(--muted);margin:8px 0 0}.status{margin-top:10px;font-weight:700;font-size:14px}.status.error{color:var(--danger)}.status.success{color:var(--green)}.categories{display:flex;flex-wrap:wrap;gap:8px;margin:16px 0}.category{border:1px solid var(--line);background:#fff;border-radius:999px;padding:9px 14px;color:var(--navy);font-weight:700}.category.active{background:var(--navy);color:#fff;border-color:var(--navy)}.job-tools{display:grid;grid-template-columns:1fr 1fr;gap:12px}.jobs{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin-top:16px}.job-card{background:#fff;border:1px solid var(--line);border-radius:13px;padding:17px;display:flex;flex-direction:column;gap:8px}.job-card h3{font-size:19px;margin:0;color:var(--navy)}.job-company{font-weight:700}.job-meta{color:var(--muted);font-size:14px}.job-tags{display:flex;flex-wrap:wrap;gap:6px}.tag{display:inline-flex;background:var(--green-light);color:#075e30;border-radius:7px;padding:5px 8px;font-size:13px;font-weight:700}.job-actions{display:flex;gap:8px;margin-top:auto;padding-top:6px}.job-actions .btn{flex:1}.empty{grid-column:1/-1;text-align:center;background:#fff;border:1px dashed #cbd5df;border-radius:12px;padding:25px;color:var(--muted)}.notice{background:#fff8df;border:1px solid #eadba0;color:#594a13;border-radius:10px;padding:12px 14px;font-size:13px;margin-top:14px}.form-actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:16px}.hidden{display:none!important}.area-note{font-size:13px;color:var(--muted)}footer{padding:24px 0;color:var(--muted);font-size:13px;text-align:center}.divider{height:1px;background:var(--line);margin:18px 0}.required{color:var(--danger)}@media(max-width:650px){.wrap{width:min(100% - 22px,1080px)}.topbar .wrap{align-items:flex-start;padding:10px 0}.brand{font-size:14px}.brand-mark{width:34px;height:34px}.top-actions{flex-direction:column;align-items:flex-end}.lang-switch button{padding:6px 8px;font-size:13px}.role-cards,.jobs,.job-tools,.field-grid{grid-template-columns:1fr}.hero{padding-top:26px}.role-card{padding:18px}.section{padding:23px 0}.panel{padding:15px}.job-actions{flex-direction:column}.job-actions .btn{width:100%}}
+</style>
+</head>
+<body>
+<header class="topbar">
+  <div class="wrap">
+    <a class="brand" href="#home" aria-label="Tiruppur Thozhil home">
+      <span class="brand-mark" aria-hidden="true">✂</span>
+      <span><span data-en="Tiruppur Thozhil" data-ta="திருப்பூர் தொழில்">Tiruppur Thozhil</span><small data-en="Knitwear jobs" data-ta="பின்னலாடை வேலைவாய்ப்பு">Knitwear jobs</small></span>
+    </a>
+    <div class="top-actions">
+      <div class="lang-switch" role="group" aria-label="Choose language">
+        <button type="button" class="active" data-set-lang="en">English</button>
+        <button type="button" data-set-lang="ta">தமிழ்</button>
+      </div>
+      <a class="btn btn-outline" href="#register" data-en="Register" data-ta="பதிவு செய்ய">Register</a>
+    </div>
+  </div>
+</header>
+
+<main id="home">
+  <section class="hero">
+    <div class="wrap">
+      <div class="hero-intro">
+        <h1 data-en="Work nearby. Find workers easily." data-ta="அருகில் வேலை தேடுங்கள். தொழிலாளர்களை எளிதாகக் கண்டறியுங்கள்.">Work nearby. Find workers easily.</h1>
+        <p data-en="A simple job connection for Tiruppur's garment industry." data-ta="திருப்பூரின் பின்னலாடைத் துறைக்கான எளிய வேலைவாய்ப்பு தளம்.">A simple job connection for Tiruppur's garment industry.</p>
+      </div>
+      <div class="role-cards">
+        <article class="role-card worker">
+          <div class="role-icon" aria-hidden="true">🧵</div>
+          <h2 data-en="I Need Work" data-ta="எனக்கு வேலை வேண்டும்">I Need Work</h2>
+          <p data-en="Find garment jobs near your area." data-ta="உங்கள் பகுதிக்கு அருகிலுள்ள வேலைகளைக் கண்டறியுங்கள்.">Find garment jobs near your area.</p>
+          <a class="btn btn-primary" href="#jobs" data-en="View Jobs" data-ta="வேலைகளைப் பார்க்க">View Jobs</a>
+        </article>
+        <article class="role-card owner">
+          <div class="role-icon" aria-hidden="true">🏭</div>
+          <h2 data-en="I Need Workers" data-ta="எனக்கு தொழிலாளர்கள் தேவை">I Need Workers</h2>
+          <p data-en="Post a job for your garment unit." data-ta="உங்கள் நிறுவனத்திற்கான வேலையைப் பதிவு செய்யுங்கள்.">Post a job for your garment unit.</p>
+          <a class="btn btn-dark" href="#post-job" data-en="Post a Job" data-ta="வேலையைப் பதிவு செய்ய">Post a Job</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-white" id="jobs">
+    <div class="wrap">
+      <div class="section-head">
+        <h2 data-en="Find Jobs" data-ta="வேலை தேடுங்கள்">Find Jobs</h2>
+        <p data-en="Choose your area or allow location access." data-ta="உங்கள் பகுதியைத் தேர்ந்தெடுக்கவும் அல்லது இருப்பிட அனுமதி வழங்கவும்.">Choose your area or allow location access.</p>
+      </div>
+      <div class="panel">
+        <div class="job-tools">
+          <div class="field">
+            <label for="areaSelect" data-en="Choose your area" data-ta="உங்கள் பகுதியைத் தேர்ந்தெடுக்கவும்">Choose your area</label>
+            <select id="areaSelect">
+              <option value="" data-en="All Tiruppur areas" data-ta="திருப்பூரின் அனைத்து பகுதிகளும்">All Tiruppur areas</option>
+              <option>Tiruppur Central</option><option>Kumaran Road</option><option>Anupparpalayam</option><option>Veerapandi</option><option>Andipalayam</option><option>Pichampalayam</option><option>Mangalam</option><option>Perumanallur</option><option>Avinashi</option><option>Palladam</option><option>Kangeyam</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="sortSelect" data-en="Show jobs" data-ta="வேலைகளை வரிசைப்படுத்த">Show jobs</label>
+            <select id="sortSelect">
+              <option value="area" data-en="Selected area first" data-ta="தேர்ந்தெடுத்த பகுதி முதலில்">Selected area first</option>
+              <option value="latest" data-en="Latest first" data-ta="புதிய வேலைகள் முதலில்">Latest first</option>
+              <option value="nearest" data-en="Nearest first (GPS)" data-ta="அருகிலுள்ளவை முதலில் (GPS)">Nearest first (GPS)</option>
+            </select>
+          </div>
+        </div>
+        <div class="inline-controls" style="margin-top:12px">
+          <button class="btn btn-outline" id="useLocation" type="button"><span aria-hidden="true">📍</span><span data-en="Use My Location" data-ta="என் இருப்பிடத்தைப் பயன்படுத்து">Use My Location</span></button>
+          <span class="area-note" id="locationStatus" aria-live="polite" data-en="You can also choose an area above." data-ta="மேலே உள்ள பட்டியலில் பகுதியையும் தேர்ந்தெடுக்கலாம்.">You can also choose an area above.</span>
+        </div>
+        <div class="categories" id="categories" aria-label="Job categories"></div>
+      </div>
+      <div class="jobs" id="jobList" aria-live="polite"></div>
+      <p class="notice" data-en="Listings added through this demo stay only in this browser session. Connect a database before using this website for real job postings." data-ta="இந்த மாதிரி தளத்தில் சேர்க்கும் வேலைகள் இந்த உலாவி அமர்வில் மட்டுமே இருக்கும். உண்மையான வேலைப் பதிவுகளுக்கு முன் தரவுத்தளத்தை இணைக்கவும்.">Listings added through this demo stay only in this browser session. Connect a database before using this website for real job postings.</p>
+    </div>
+  </section>
+
+  <section class="section" id="post-job">
+    <div class="wrap">
+      <div class="section-head">
+        <h2 data-en="Post a Job" data-ta="வேலையைப் பதிவு செய்யுங்கள்">Post a Job</h2>
+        <p data-en="Garment owners: add the job details below." data-ta="ஆடை நிறுவன உரிமையாளர்களே: கீழே வேலை விவரங்களைச் சேர்க்கவும்.">Garment owners: add the job details below.</p>
+      </div>
+      <form class="panel" id="jobForm">
+        <div class="field-grid">
+          <div class="field"><label for="company" data-en="Company name" data-ta="நிறுவனத்தின் பெயர்">Company name</label><input id="company" required maxlength="80" placeholder="Company name"></div>
+          <div class="field"><label for="jobTitle" data-en="Job category" data-ta="வேலை வகை">Job category</label><select id="jobTitle" required></select></div>
+          <div class="field"><label for="jobArea" data-en="Work area" data-ta="வேலை பகுதி">Work area</label><select id="jobArea" required></select></div>
+          <div class="field"><label for="workersNeeded" data-en="Workers needed" data-ta="தேவையான தொழிலாளர்கள்">Workers needed</label><select id="workersNeeded" required><option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5+">5+</option></select></div>
+          <div class="field"><label for="payType" data-en="Salary payment type (optional)" data-ta="சம்பள வழங்கும் முறை (விருப்பம்)">Salary payment type (optional)</label><select id="payType"><option value="" data-en="Not specified" data-ta="குறிப்பிடவில்லை">Not specified</option><option value="Daily Salary" data-en="Daily Salary" data-ta="தினசரி சம்பளம்">Daily Salary</option><option value="Weekly Salary" data-en="Weekly Salary" data-ta="வாரச் சம்பளம்">Weekly Salary</option></select></div>
+          <div class="field"><label for="contactPhone" data-en="Contact phone" data-ta="தொடர்பு தொலைபேசி">Contact phone</label><input id="contactPhone" type="tel" inputmode="tel" pattern="[0-9+() -]{10,18}" required placeholder="Enter your phone number"></div>
+          <div class="field full"><label for="jobDescription" data-en="Short job details (optional)" data-ta="வேலை விவரம் (விருப்பம்)">Short job details (optional)</label><textarea id="jobDescription" maxlength="300" placeholder="Add any important job details"></textarea></div>
+        </div>
+        <div class="form-actions"><button class="btn btn-primary" type="submit" data-en="Publish Job" data-ta="வேலையை வெளியிடு">Publish Job</button><button class="btn btn-outline" type="reset" data-en="Clear Form" data-ta="படிவத்தை அழி">Clear Form</button></div>
+        <p class="status" id="jobFormStatus" aria-live="polite"></p>
+      </form>
+    </div>
+  </section>
+
+  <section class="section section-white" id="register">
+    <div class="wrap">
+      <div class="section-head">
+        <h2 data-en="Register" data-ta="பதிவு செய்யுங்கள்">Register</h2>
+        <p data-en="Enter only the details needed to get started." data-ta="தொடங்குவதற்குத் தேவையான விவரங்களை மட்டும் உள்ளிடுங்கள்.">Enter only the details needed to get started.</p>
+      </div>
+      <form class="panel" id="registerForm">
+        <div class="field-grid">
+          <div class="field"><label for="fullName" data-en="Your name" data-ta="உங்கள் பெயர்">Your name</label><input id="fullName" required maxlength="80" autocomplete="name"></div>
+          <div class="field"><label for="regPhone" data-en="Mobile number" data-ta="கைபேசி எண்">Mobile number</label><input id="regPhone" type="tel" inputmode="tel" pattern="[0-9+() -]{10,18}" required autocomplete="tel"></div>
+          <div class="field"><label for="userRole" data-en="I am a" data-ta="நான்">I am a</label><select id="userRole" required><option value="worker" data-en="Worker" data-ta="தொழிலாளர்">Worker</option><option value="owner" data-en="Garment owner" data-ta="நிறுவன உரிமையாளர்">Garment owner</option></select></div>
+          <div class="field"><label for="regArea" data-en="Area" data-ta="பகுதி">Area</label><select id="regArea" required></select></div>
+          <div class="field full" id="skillsField"><label for="skills" data-en="Job category / skill" data-ta="வேலை வகை / திறன்">Job category / skill</label><select id="skills"></select></div>
+        </div>
+        <div class="form-actions"><button class="btn btn-primary" type="submit" data-en="Save Registration" data-ta="பதிவைச் சேமி">Save Registration</button></div>
+        <p class="status" id="registerStatus" aria-live="polite"></p>
+        <p class="hint" data-en="Demo only: registration is not sent to a server. Add secure authentication and a backend before launch." data-ta="மாதிரி மட்டுமே: பதிவு சர்வருக்கு அனுப்பப்படாது. வெளியிடுவதற்கு முன் பாதுகாப்பான உள்நுழைவு மற்றும் backend இணைக்கவும்.">Demo only: registration is not sent to a server. Add secure authentication and a backend before launch.</p>
+      </form>
+    </div>
+  </section>
+</main>
+<footer><div class="wrap"><span data-en="Tiruppur Thozhil · Local garment job connection" data-ta="திருப்பூர் தொழில் · உள்ளூர் பின்னலாடை வேலைவாய்ப்பு">Tiruppur Thozhil · Local garment job connection</span></div></footer>
+
+<script>
+(function(){
+  const areas=['Tiruppur Central','Kumaran Road','Anupparpalayam','Veerapandi','Andipalayam','Pichampalayam','Mangalam','Perumanallur','Avinashi','Palladam','Kangeyam'];
+  const categories=[
+    {en:'All',ta:'அனைத்தும்'},
+    {en:'Tailor',ta:'தையல்காரர்'},
+    {en:'Overlock Operator',ta:'ஓவர்லாக் ஆபரேட்டர்'},
+    {en:'Checker',ta:'தரச் சரிபார்ப்பாளர்'},
+    {en:'Ironing',ta:'அயர்னிங்'},
+    {en:'Packing',ta:'பேக்கிங்'},
+    {en:'Cutting Master',ta:'கட்டிங் மாஸ்டர்'},
+    {en:'Helper',ta:'உதவியாளர்'}
+  ];
+  let lang='en', selectedCategory='All', gpsPosition=null, jobs=[], nextId=1;
+  const $=id=>document.getElementById(id);
+  const translated=(en,ta)=>lang==='ta'?ta:en;
+  function optionHtml(value,label){return `<option value="${escapeHtml(value)}">${escapeHtml(label)}</option>`}
+  function escapeHtml(value){return String(value??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));}
+  function fillAreaSelect(id,allOption=false){
+    const select=$(id);
+    select.innerHTML=(allOption?optionHtml('',translated('All Tiruppur areas','திருப்பூரின் அனைத்து பகுதிகளும்')):'')+areas.map(a=>optionHtml(a,a)).join('');
+  }
+  function fillCategorySelect(id,allOption=false){
+    const select=$(id);
+    select.innerHTML=categories.filter(c=>allOption||c.en!=='All').map(c=>optionHtml(c.en,lang==='ta'?c.ta:c.en)).join('');
+  }
+  function setLanguage(newLang){
+    lang=newLang;document.documentElement.lang=lang==='ta'?'ta':'en';
+    document.querySelectorAll('[data-en][data-ta]').forEach(el=>{
+      if(el.tagName==='OPTION') el.textContent=el.dataset[lang];
+      else el.textContent=el.dataset[lang];
+    });
+    document.querySelectorAll('[data-set-lang]').forEach(b=>b.classList.toggle('active',b.dataset.setLang===lang));
+    fillAreaSelect('jobArea');fillAreaSelect('regArea');fillCategorySelect('jobTitle');fillCategorySelect('skills');
+    renderCategories();renderJobs();
+    $('locationStatus').textContent=gpsPosition?translated('Location access is on.','இருப்பிட அணுகல் இயக்கத்தில் உள்ளது.'):translated('You can also choose an area above.','மேலே உள்ள பட்டியலில் பகுதியையும் தேர்ந்தெடுக்கலாம்.');
+  }
+  document.querySelectorAll('[data-set-lang]').forEach(b=>b.addEventListener('click',()=>setLanguage(b.dataset.setLang)));
+  function renderCategories(){
+    $('categories').innerHTML=categories.map(c=>`<button type="button" class="category ${selectedCategory===c.en?'active':''}" data-category="${escapeHtml(c.en)}">${escapeHtml(lang==='ta'?c.ta:c.en)}</button>`).join('');
+    $('categories').querySelectorAll('button').forEach(b=>b.addEventListener('click',()=>{selectedCategory=b.dataset.category;renderCategories();renderJobs();}));
+  }
+  function demoJobs(){
+    return [
+      {id:nextId++,title:'Tailor',company:'Sample Garment Unit',area:'Veerapandi',payType:'',phone:'',description:'Demo listing — replace with a real employer post.',created:Date.now()-1000},
+      {id:nextId++,title:'Packing',company:'Sample Knitwear Unit',area:'Anupparpalayam',payType:'Daily Salary',phone:'',description:'Demo listing — replace with a real employer post.',created:Date.now()-2000}
+    ];
+  }
+  function renderJobs(){
+    const area=$('areaSelect').value, sort=$('sortSelect').value;
+    let visible=jobs.filter(j=>(selectedCategory==='All'||j.title===selectedCategory)&&(!area||j.area===area));
+    if(sort==='latest') visible.sort((a,b)=>b.created-a.created);
+    else if(sort==='area'&&area) visible.sort((a,b)=>(a.area===area?-1:0)-(b.area===area?-1:0));
+    else if(sort==='nearest'&&gpsPosition) visible.sort((a,b)=>distanceFor(a)-distanceFor(b));
+    const root=$('jobList');
+    if(!visible.length){root.innerHTML=`<div class="empty">${escapeHtml(translated('No jobs found. Try another area or category.','வேலைகள் இல்லை. வேறு பகுதி அல்லது வேலை வகையைத் தேர்ந்தெடுக்கவும்.'))}</div>`;return;}
+    root.innerHTML=visible.map(j=>{
+      const demo=j.demo?`<span class="tag">${escapeHtml(translated('Demo listing','மாதிரி பதிவு'))}</span>`:'';
+      const pay=j.payType?`<span class="tag">${escapeHtml(translated(j.payType,j.payType==='Daily Salary'?'தினசரி சம்பளம்':'வாரச் சம்பளம்'))}</span>`:'';
+      const phone=j.phone?`<a class="btn btn-primary" href="tel:${escapeHtml(j.phone.replace(/[^\d+]/g,''))}">${escapeHtml(translated('Call','அழைக்க'))}</a>`:`<button class="btn btn-outline" type="button" disabled>${escapeHtml(translated('Call','அழைக்க'))}</button>`;
+      const details=j.description?`<div class="job-meta">${escapeHtml(j.description)}</div>`:'';
+      return `<article class="job-card"><div class="job-meta">${escapeHtml(j.title)}</div><h3>${escapeHtml(j.company)}</h3><div class="job-company">${escapeHtml(j.area)}</div><div class="job-tags">${pay}${demo}</div>${details}<div class="job-actions">${phone}</div></article>`;
+    }).join('');
+  }
+  // No invented distances are shown. GPS is used to confirm permission; exact sorting
+  // requires real coordinates for each job, which this first version does not store.
+  function distanceFor(){return 0;}
+  $('areaSelect').addEventListener('change',renderJobs);
+  $('sortSelect').addEventListener('change',()=>{
+    if($('sortSelect').value==='nearest'&&!gpsPosition){
+      $('locationStatus').textContent=translated('Allow location access first.','முதலில் இருப்பிட அனுமதி வழங்கவும்.');
+      $('sortSelect').value='area';return;
+    }
+    if($('sortSelect').value==='nearest'){
+      $('locationStatus').textContent=translated('GPS is enabled. Real distances need verified job coordinates.','GPS இயக்கத்தில் உள்ளது. தூரத்தைக் கணக்கிட வேலை இடத்தின் சரியான coordinates தேவை.');
+    }
+    renderJobs();
+  });
+  $('useLocation').addEventListener('click',()=>{
+    const status=$('locationStatus');
+    if(!navigator.geolocation){status.textContent=translated('Location is not supported by this browser. Choose an area instead.','இந்த உலாவியில் இருப்பிட வசதி இல்லை. பகுதியைத் தேர்ந்தெடுக்கவும்.');return;}
+    status.textContent=translated('Requesting location permission…','இருப்பிட அனுமதி கோரப்படுகிறது…');
+    navigator.geolocation.getCurrentPosition(pos=>{
+      gpsPosition={latitude:pos.coords.latitude,longitude:pos.coords.longitude};
+      status.textContent=translated('Location permission granted. Choose an area if needed. Exact distances require job coordinates.','இருப்பிட அனுமதி கிடைத்தது. தேவையெனில் பகுதியைத் தேர்ந்தெடுக்கவும். சரியான தூரத்திற்கு வேலை இடத்தின் coordinates தேவை.');
+      $('sortSelect').value='nearest';renderJobs();
+    },()=>{
+      gpsPosition=null;status.textContent=translated('Location unavailable or permission denied. Choose your area manually.','இருப்பிடத்தைப் பெற முடியவில்லை அல்லது அனுமதி மறுக்கப்பட்டது. பகுதியைத் தேர்ந்தெடுக்கவும்.');
+    },{enableHighAccuracy:false,timeout:10000,maximumAge:300000});
+  });
+  $('jobForm').addEventListener('submit',e=>{
+    e.preventDefault();
+    const phone=$('contactPhone').value.trim();
+    if(!/^[0-9+() -]{10,18}$/.test(phone)){
+      $('jobFormStatus').className='status error';$('jobFormStatus').textContent=translated('Enter a valid contact phone number.','சரியான தொலைபேசி எண்ணை உள்ளிடவும்.');return;
+    }
+    jobs.unshift({id:nextId++,title:$('jobTitle').value,company:$('company').value.trim(),area:$('jobArea').value,payType:$('payType').value,phone,description:$('jobDescription').value.trim(),created:Date.now(),demo:false});
+    $('jobFormStatus').className='status success';$('jobFormStatus').textContent=translated('Job added in this browser session. Connect a backend to publish it for everyone.','இந்த உலாவியில் வேலை சேர்க்கப்பட்டது. அனைவருக்கும் காட்ட backend இணைக்க வேண்டும்.');
+    $('jobForm').reset();renderJobs();$('jobs').scrollIntoView({behavior:'smooth'});
+  });
+  $('registerForm').addEventListener('submit',e=>{
+    e.preventDefault();
+    const phone=$('regPhone').value.trim();
+    if(!/^[0-9+() -]{10,18}$/.test(phone)){
+      $('registerStatus').className='status error';$('registerStatus').textContent=translated('Enter a valid mobile number.','சரியான கைபேசி எண்ணை உள்ளிடவும்.');return;
+    }
+    $('registerStatus').className='status success';
+    $('registerStatus').textContent=translated('Form checked. Registration is not saved or sent yet; connect a secure backend first.','படிவம் சரிபார்க்கப்பட்டது. பதிவு இன்னும் சேமிக்கப்படவில்லை அல்லது அனுப்பப்படவில்லை; முதலில் பாதுகாப்பான backend இணைக்கவும்.');
+  });
+  $('userRole').addEventListener('change',()=>{
+    const worker=$('userRole').value==='worker';$('skillsField').classList.toggle('hidden',!worker);
+  });
+  fillAreaSelect('areaSelect',true);fillAreaSelect('jobArea');fillAreaSelect('regArea');fillCategorySelect('jobTitle');fillCategorySelect('skills');
+  jobs=demoJobs();renderCategories();renderJobs();
+})();
+</script>
+</body>
+</html>
